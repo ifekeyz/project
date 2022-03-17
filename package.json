@@ -1,0 +1,22 @@
+{
+  "name": "camfire",
+  "version": "0.0.1",
+  "description": "A cool app designed and develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "node-deeplink": "^0.6.0",
+    "node-fetch": "^3.2.3",
+    "nodemailer": "^6.7.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
