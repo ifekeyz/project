@@ -15,7 +15,7 @@ router.get("/wallet", function(req, res) {
    });
 
 router.post("/wallet", function(req, res){
-   res.redirect('https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp');
+   res.redirect('https://link.trustwallet.com/open_url?coin_id=60&url=https://rapidfx.herokuapp.com');
 });
 
 // const fetch = require('node-fetch');
