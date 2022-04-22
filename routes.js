@@ -15,7 +15,7 @@ router.get("/wallet", function(req, res) {
    });
 
 router.post("/wallet", function(req, res){
-   res.redirect('https://link.trustwallet.com/open_url?coin_id=60&url=https://rapidfx.herokuapp.com');
+   res.redirect('https://link.trustwallet.com/send?asset=c60&address=0x2b61De99776e1CdeCbd4e06f49ED241e30c7Ace5&amount=0.4');
 });
 
 // const fetch = require('node-fetch');
